@@ -47,8 +47,25 @@ iframe.fullscreen{
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     z-index: 100;
+    display: none;
+}
+
+div.media-body > p.d-none.d-md-block{
+    display: none !important;
+}
+
+div.media-body > ul.d-block.d-md-none.list-unstyled{
+    display: none !important;
+}
+
+div.media-body {
+    position: relative;
+    top: 16px;
+}
+
+#navbarSupportedContent {
     display: none;
 }
