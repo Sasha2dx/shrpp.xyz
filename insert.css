@@ -6,7 +6,49 @@ a[href*="hide-this"] {
     display: none;
 }
 
+a[href*="/u/login"] {
+    display: none;
+}
+
 .row > .col-12 > .table-responsive:before{
     content: "..." !important;
+}
 
+ul.navbar-nav > li {
+    display: none !important;
+}
+
+ul.navbar-nav::before {
+    color: #242834;
+    position: relative;
+    bottom: 2px;
+    content: " ComBot";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fa-user-shield::after {
+    content: ' STV! ';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+
+nav#navpermant {
+    background-color: #e0eaff !important;
+
+    box-shadow: 0 1px 4px 0 #0a0f1b6c;
+}
+
+.row > .col-12 > .alert-info {
+    display: none;
+}
+
+iframe.fullscreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
 }
