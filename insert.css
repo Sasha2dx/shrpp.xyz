@@ -1,0 +1,12 @@
+body {
+    background-color: #fff !important;
+}
+
+a[href*="hide-this"] {
+    display: none;
+}
+
+.row > .col-12 > .table-responsive:before{
+    content: "..." !important;
+
+}
