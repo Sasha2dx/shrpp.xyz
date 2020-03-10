@@ -44,10 +44,10 @@ a[href*="/u/login"] {
 }
 
 .banner{
-    content: "Underground gamedev say hello! We hire the bigest Elon Musk funs in our the best chat: t.me/BFRGT. Join immidiatelly!" !important;
     min-height: 55px;
     width: 80vw;
     margin: 25px auto;
+    margin-top: 50px;
     display: flex;
     padding: 10px;
     background-color: #ffffff;
@@ -62,6 +62,17 @@ a[href*="/u/login"] {
     font-weight: 600;
     text-align: center;
     box-shadow: 0 1px 4px 0 #0a0f1b6c;
+    position: fixed;
+    z-index: 150;
+    left: 10vw;
+    
+}
+
+@media (max-width: 576px) {
+    .banner{
+        margin-top: 128px;
+
+    }
 }
 
 ul.navbar-nav > li {
@@ -104,7 +115,7 @@ iframe.fullscreen{
     display: none;
 }
 
-div.media-body > p.d-none.d-md-block a:not(.banner){
+div.media-body > p.d-none.d-md-block{
     display: none !important;
 }
 
