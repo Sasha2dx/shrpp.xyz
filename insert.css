@@ -168,6 +168,10 @@ ul.navbar-nav > li {
     display: none !important;
 }
 
+#navbarSupportedContent {
+    display:none !important;
+}
+
 /*ul.navbar-nav::before {*/
 nav#navpermant::before {
     color: #242834;
@@ -176,6 +180,7 @@ nav#navpermant::before {
     content: " ComBot";
     font-size: 20px;
     font-weight: 600;
+    margin-right: auto;
 
 }
 
