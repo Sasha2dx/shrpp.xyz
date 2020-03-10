@@ -168,7 +168,7 @@ ul.navbar-nav > li {
     display: none !important;
 }
 
-#navbarSupportedContent {
+#navbarSupportedContent > a.navbar-brand {
     display:none !important;
 }
 
