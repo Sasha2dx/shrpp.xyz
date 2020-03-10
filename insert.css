@@ -65,10 +65,6 @@ p.content{
 
 .banner{
 
-
-}
-
-.banner-inner{
     min-height: 55px;
     width: 80vw;
     /*margin: 25px auto;*/
@@ -91,6 +87,11 @@ p.content{
     z-index: 150;
     left: 3.3vw;
     top: 48px;
+
+}
+
+.banner-inner{
+
 }
 
 @media (max-width: 576px) {
