@@ -48,7 +48,7 @@ a[href*="/u/login"] {
     box-shadow: 0 1px 4px 0 #0a0f1b6c;
     z-index: 150;
     left: 10vw;
-    /*opacity: 10%;*/
+    opacity: 10%;
 }
 
 
