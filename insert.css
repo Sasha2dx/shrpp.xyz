@@ -14,6 +14,12 @@ div.container-fluid{
     display: none;
 }
 
+
+
+button.navbar-toggler {
+    display: none;
+}
+
 a[href*="hide-this"] {
     display: none;
 }
@@ -162,7 +168,8 @@ ul.navbar-nav > li {
     display: none !important;
 }
 
-ul.navbar-nav::before {
+/*ul.navbar-nav::before {*/
+nav {
     color: #242834;
     position: relative;
     bottom: 2px;
