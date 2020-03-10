@@ -85,7 +85,7 @@ p.content{
     box-shadow: 0 1px 4px 0 #0a0f1b6c;
     position: relative;
     z-index: 150;
-    left: 3.3vw;
+    left: -2.5vw;
     top: 48px;
 
 }
@@ -93,13 +93,33 @@ p.content{
 .banner-inner{
 
 }
-
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .banner{
-        top: 128px;
+        top: 48px;
         left: -6.3vw;
     }
 }
+@media (max-width: 633px) {
+    .banner{
+        top: 10px;
+        left: 6.3vw;
+    }
+}
+@media (max-width: 576px) {
+    .banner{
+        top: 128px;
+        left: -75px;
+    }
+}
+
+@media (max-width: 325px) {
+    .banner{
+        top: 128px;
+        left: 10px;
+    }
+}
+
+
 
 ul.navbar-nav > li {
     display: none !important;
