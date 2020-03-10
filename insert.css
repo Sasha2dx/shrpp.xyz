@@ -10,6 +10,9 @@ div.container-fluid{
     height: 200vw;
 }
 
+.hide{
+    display: none;
+}
 
 a[href*="hide-this"] {
     display: none;
@@ -55,12 +58,20 @@ a[href*="/u/login"] {
 p.content{
     width: 0;
     height: 0;
+    /*display: inline;*/
+    /*width: 100%;*/
+
 }
 
 .banner{
+
+
+}
+
+.banner-inner{
     min-height: 55px;
     width: 80vw;
-    margin: 25px auto;
+    /*margin: 25px auto;*/
     margin-top: 50px;
     display: flex;
     padding: 10px;
@@ -80,13 +91,12 @@ p.content{
     z-index: 150;
     left: 3.3vw;
     top: 48px;
-
 }
 
 @media (max-width: 576px) {
     .banner{
         top: 128px;
-        left: 15px;
+        left: -6.3vw;
     }
 }
 
