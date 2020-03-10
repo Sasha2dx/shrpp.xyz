@@ -169,7 +169,7 @@ ul.navbar-nav > li {
 }
 
 /*ul.navbar-nav::before {*/
-nav {
+nav#navpermant::before {
     color: #242834;
     position: relative;
     bottom: 2px;
