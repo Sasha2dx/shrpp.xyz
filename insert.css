@@ -87,12 +87,41 @@ p.content{
     z-index: 150;
     left: -2.5vw;
     top: 48px;
+    
+}
+
+.banner:hover {
+
+    color: #313543 !important;
+    text-decoration: none;
 
 }
 
-.banner-inner{
-
+.banner-label{
+    width: 0;
+    height: 0;
 }
+
+.banner-label >  .label {
+    display: block;
+    position: relative;
+    width: 120px;
+    height: 21px;
+    font-size: 15px;
+    border-radius: 10px 10px 0 0;
+    top: -31px;
+    font-family: sans-serif;
+    background-color: #c5c5c5;
+    z-index: 100;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    box-shadow: 0 -1px 3px 0 #0a0f1b9c;
+    line-height: 20px;
+}
+
+
+
 @media (max-width: 768px) {
     .banner{
         top: 48px;
