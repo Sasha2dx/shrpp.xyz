@@ -87,9 +87,12 @@ p.content{
     z-index: 150;
     left: -2.5vw;
     top: 48px;
-    
+
 }
 
+.banner:after {
+    content: "Underground gamedev say hello! We hire the bigest Elon Musk funs in our the best chat: t.me/BFRGT. Join immidiatelly! ";
+}
 .banner:hover {
 
     color: #313543 !important;
@@ -101,6 +104,7 @@ p.content{
     width: 0;
     height: 0;
 }
+
 
 .banner-label >  .label {
     display: block;
