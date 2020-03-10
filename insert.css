@@ -18,6 +18,10 @@ a[href*="hide-this"] {
     display: none;
 }
 
+.fa-star::before {
+    content: '🐖★💨'
+}
+
 a[href*="/u/login"] {
     display: none;
 }
