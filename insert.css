@@ -19,7 +19,7 @@ a[href*="hide-this"] {
 }
 
 .fa-star::before {
-    content: '🐖★💨'
+    content: '🐖★💨' !important;
 }
 
 a[href*="/u/login"] {
