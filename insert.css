@@ -111,6 +111,7 @@ p.content{
 .banner-label{
     width: 0;
     height: 0;
+    z-index: initial;
 }
 
 
