@@ -93,7 +93,7 @@ p.content{
     box-shadow: 0 1px 4px 0 #0a0f1b6c;
     position: relative;
     z-index: 150;
-    left: -2.5vw;
+    left: calc(10vw - 121px);
     top: 48px;
 
 }
@@ -133,35 +133,33 @@ p.content{
     line-height: 20px;
 }
 
-
+.baner-iframe{
+    width: 100%;
+}
 
 @media (max-width: 768px) {
     .banner{
         top: 48px;
-        left: -6.3vw;
     }
 }
-@media (max-width: 633px) {
+@media (max-width: 617px) {
     .banner{
         top: 10px;
-        left: 6.3vw;
+        left: calc(10vw - 15px);
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .banner{
         top: 128px;
-        left: -75px;
+        left: calc(10vw - 121px);
     }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 308px) {
     .banner{
-        top: 128px;
-        left: 10px;
+        left: calc(10vw - 15px);
     }
 }
-
-
 
 ul.navbar-nav > li {
     display: none !important;
